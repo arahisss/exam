@@ -203,6 +203,117 @@
         </div>
     </section>
 
+    <section>
+        <div class="container">
+            <table style="border: 2px solid rgb(66, 51, 28);" class="table mt-5">
+                <thead>
+                    <tr>
+                    <th scope="col">Название</th>
+                    <th scope="col">Тип</th>
+                    <th scope="col">Адрес</th>
+                    <th scope="col">Действия</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    <th scope="row">1</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    </tr>
+                    <tr>
+                    <th scope="row">2</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    </tr>
+                    <tr>
+                    <th scope="row"></th>
+                    <td colspan="2"></td>
+                    <td></td>
+                    </tr>
+                </tbody>
+            </table>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination">
+                    <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 style="display:flex; justify-content: center;" class="m-5">Меню</h1>
+            <div class="row  justify-content-center align-items-center">
+
+                <div class="card col-md-4 m-4 p-3" style="width: 18rem; background-color: aliceblue;">
+                    <img src="img/pizza1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Пицца</h5>
+                        <p class="card-text">Краткое описание</p>
+                        <h3>100P</h3>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 m-4 p-3" style="width: 18rem; background-color: aliceblue;">
+                    <img src="img/pizza1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Пицца</h5>
+                        <p class="card-text">Краткое описание</p>
+                        <h3>100P</h3>
+                    </div>
+                </div>
+
+                <div class="card col-md-4 m-4 p-3" style="width: 18rem; background-color: aliceblue;">
+                    <img src="img/pizza1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Пицца</h5>
+                        <p class="card-text">Краткое описание</p>
+                        <h3>100P</h3>
+                    </div>
+                </div>
+           
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <h1 style="display:flex; justify-content: center;" class="m-5">Дополнительные опции</h1>
+            <div class="row  justify-content-center align-items-center">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">
+                   Являюсь студентом ВУЗа
+                </label>
+                </div>
+                <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                <label class="form-check-label" for="flexCheckChecked">
+                    Быстрая доставка
+                </label>
+            </div>
+            <button type="button" class="btn m-4 col-md-2 btn-warning">Оформить заказ</button>
+                
+           
+            </div>
+        </div>
+    </section>
+
+
      
 
 
